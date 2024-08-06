@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+
+    <title>Transaction Panel</title>
+</head>
+<body>
+    <center>
+        <div class="Transaction">
+            <a href="{{url_for('deposit',account=account,pin =pin)}}"><button class="Deposit">Deposit</button></a>
+            <a href="{{url_for('withdraw',account=account,pin =pin)}}"><button class="Withdraw">Withdraw</button></a>
+            <a href="{{url_for('balance',account=account,pin =pin)}}"><button class="Balance">Show Balance</button></a>
+        </div>
+    </center>
+</body>
+</html>

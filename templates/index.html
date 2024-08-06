@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>ATM model</title>
+</head>
+<body>
+    <center>
+    <div class="Account">
+        <h2>Create an Account</h2>
+        <div class="Accopenform">
+        <form method="post">
+        <label class="acc">Enter Account number:</label>
+        <input type="number" name="Account_number" id="acc" placeholder="Account number" maxlength="10" minlength="1">
+        <br/>
+        <label class="pin">Enter Account Pin:</label>
+        <input type="number" name="Pin" id="pin" placeholder="Pin number" maxlength="4">
+        <br/>
+        <button class="submit">Submit</button>
+        </form>
+    </div>
+        <a href="{{url_for('alreadyacc')}}"><button>Already having an account</button></a>
+    </div>
+</center>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    padding: 5%;
+    margin: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.Account{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(195, 218, 240, 0.486);
+    justify-content: center;
+    align-items: center;
+    width: 700px;  
+    padding: 2%;
+    margin: 1%;
+}
+.Accopenform{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+}
+.acc{
+    font-weight: bold;
+    padding: 10px;
+    margin:5px;
+}
+.pin{
+    padding: 10px;
+    margin:5px;
+    font-weight: bold;
+}
+
+.submit{
+    padding: 10px;
+    margin: 6px;
+}
+
+.Accopenform input{
+    padding: 2px;
+    margin: 5px;
+    height: 35px;
+}
+
+.Transaction{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(4, 239, 239, 0.449);
+    width: 700px;  
+    padding: 2%;
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.Transaction button{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: rgb(22, 197, 197);
+    font-weight: bold;
+    border-color: rgba(255, 255, 255, 0);
+}
+.Transaction button:hover{
+    background-color: rgb(2, 152, 152);
+    color: white;
+    box-shadow: 2px 2px 2px rgba(22, 197, 197, 0.34);
+}
